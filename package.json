@@ -14,7 +14,7 @@
     "node": "^14.0.0"
   },
   "scripts": {
-    "start": "micro index.js",
+    "start": "micro index.js --port 80",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect"
   },
